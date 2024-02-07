@@ -47,16 +47,20 @@ img {
 
 .navbar {
   transition: all 0.5s;
+  position: absolute;
+  height: 110px;
 }
 
-.navbar-custom {
+
+
+/* .navbar-custom {
   height: 90px;
-}
+} */
 
-.navbar-scrolled {
+/* .navbar-scrolled {
   background-color: black;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-}
+} */
 
 .logo-image img{
   width: 200px;
@@ -71,27 +75,30 @@ img {
 
 .p-5 {
   display: flex;
-  align-items: center;
+  align-items: top;
   justify-content: flex-start;
-  /* margin-top: 30px;
-  margin-bottom: 50px; */
+  /* margin-top: 50px; */
+  /* margin-bottom: 50px; */
   width: 100%; /* Set the width of the container */
       height: 100%; /* Set the height of the container */
+      
       overflow: hidden; /* Hide any overflow content */
       position: relative; /* Ensure positioning context for absolute positioning */
+      background-color: rgb(200, 171, 141);
 }
 
 .p-5 img {
-  width: 45%;
-  height: 80%;
-  padding-right: 120px;
+  width: 40%;
+  height: 100%;
+  padding-right: 30px;
   /* margin-right: 100px; */
-  margin-left: -110px;
-  flex: 0 0 auto;
+  margin-left: -120px;
+  margin-top: -35px;
+  /* flex: 0 0 auto; */
 }
 
 .p-5 .bottom-image img {
-  width: 68%; /* Ensure the image fits within the container */
+  width: 62%; /* Ensure the image fits within the container */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Prevent extra space below image */
   margin-left: 470px;
@@ -101,7 +108,7 @@ img {
 h1 {
   text-align: center;
   padding-left: 500px;
-  color: rgb(200, 171, 141);
+  color: rgb(51, 66, 85);
 }
 
 
@@ -161,13 +168,13 @@ h1 {
   line-height: 21px;
   /* margin-left: auto;
   margin-right: 400px; */
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.9);
   padding-bottom: 16px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .footer .info-1 a:hover {
-  color: #810a0a;
+  color: rgb(170, 255, 0);
   margin-left: 3px;
   font-weight: 500;
 }
@@ -189,13 +196,13 @@ h1 {
   font-size: 14px;
   line-height: 21px;
   
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.9);
   padding-bottom: 16px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .footer .info-2 a:hover {
-  color: #810a0a;
+  color: rgb(170, 255, 0);
   margin-left: 3px;
   font-weight: 500;
 }

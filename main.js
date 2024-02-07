@@ -12,19 +12,19 @@
 
 
 
-const navEl = document.querySelector('.navbar');
+// const navEl = document.querySelector('.navbar');
 
-window.addEventListener('scroll', () => {
-    if (window.scrollY >= 630) {
-        navEl.classList.add('navbar-scrolled')
-    } else if (window.scrollY < 630) {
-        navEl.classList.remove('navbar-scrolled')
-    }
-})
+// window.addEventListener('scroll', () => {
+//     if (window.scrollY >= 630) {
+//         navEl.classList.add('navbar-scrolled')
+//     } else if (window.scrollY < 630) {
+//         navEl.classList.remove('navbar-scrolled')
+//     }
+// })
 
 document.getElementById('scrollArrow').addEventListener('click', function() {
     // Calculate the percentage of the page height to scroll
-    const percentageToScroll = 0.43; // Example: 50%
+    const percentageToScroll = 0.45; // Example: 50%
 
     // Calculate the position to scroll to
     const scrollPosition = document.body.scrollHeight * percentageToScroll;
